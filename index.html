@@ -108,6 +108,82 @@
               </div>
             </div>
           </div>
+
+          <div class="form-group">
+            <div class="row">
+                <label for="PinCode" class="col-sm-2 control-label">PinCode</label>
+                <div class="col-xs-2">
+                    <INPUT id="txtNumber"  onkeypress="return isNumberKey(event)"   type="text" name="txtNumber" maxlength="6">
+                </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+              <div class="row">
+                  <label for="Gender" class="col-sm-2 control-label">Employee Type</label>
+                  <div class="col-xs-2">
+                      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+                          Contract
+                        </button>
+              </div>
+              <div class="col-xs-2">
+                  <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+                      Permanent
+                    </button>
+        </div>
+                
+              </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+                <label for="contractDuration" class="col-sm-2 control-label">Contract Duration</label>
+                <div class="col-xs-2">
+                    <INPUT id="contractDuration"  onkeypress="return isNumberKey(event)"   type="text" name="contractDuration" placeholder="InMonths">
+                </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="row">
+                <label for="Designation" class="col-sm-2 control-label">Designation</label>
+                <div class="col-xs-2">
+                  <input type="text" class="form-control" id="designation">
+                </div>
+            </div>
+          </div>
+          <div class="form-group">
+              <div class="row">
+                  <label for="firstName" class="col-sm-2 control-label">Experience</label>
+                  <div class="col-xs-2">
+                    <input type="text" class="form-control" id="years" placeholder="Years">
+                  </div>
+                  <div class="col-xs-2">
+                    <input type="text" class="form-control" id="months" placeholder="Months">
+                  </div> 
+                </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <label for="PrevcompanyDetails" class="col-sm-2 control-label">Previous Company Details</label>
+              <div class="col-xs-4">
+                  <input type="text" class="form-control input-lg" placeholder="Name of the Organisation">
+                  <textarea class="form-control" rows="4" placeholder="Address of the Organization" id="AOO"></textarea>
+                </div> 
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-2">
+                  <p>
+                      <button type="button" class="btn btn-primary btn-lg">Save</button>
+                    
+                    </p>
+              </div>
+              <div class="col-xs-2">
+                  <button type="button" class="btn btn-default btn-lg">Cancel</button>
+              </div>
+            </div>
+          </div>
         </form>
     </div>
     
