@@ -14,7 +14,7 @@ $(function(){
         });
 
         $("#state").change(function(){
-            if($(this).val()=="MH"){
+            
                     $.getJSON('MHDistricts.json',function(result){
                     $.each(result, function(i,district) {
                         //<option value='districtName'>districtName</option>
@@ -26,7 +26,7 @@ $(function(){
                          });
                          $('#district').html(districtOptions);
                     });
-                }
+                
             });
     
 });
