@@ -1,13 +1,18 @@
 
-#female{
-    background-color: #ccb3ff;
-    
-}
-
-#male{
-    background-color: #7733ff;
-    
-}
 #AOO{
     margin-top: 9px;
+}
+#presentAddr{
+    margin-top: 10px;
+}
+#state{
+    margin-bottom: 10px;
+}
+#district{
+    
+    margin-bottom: 10px;
+}
+#experience{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
