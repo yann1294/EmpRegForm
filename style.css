@@ -1,4 +1,11 @@
-
+body{
+    font-family: serif;
+    background: url(images/employee.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 14px;
+}
 #AOO{
     margin-top: 9px;
 }
@@ -15,4 +22,15 @@
 #experience{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.btn-primary{
+
+}
+.jumbotron{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
 }
